@@ -1,0 +1,78 @@
+*{
+	padding:0;
+	margin:0;
+    box-sizing: border-box;
+	text-decoration: none;
+}
+.contaner{
+	width:80%;
+	margin: 10px auto;
+    transition: 0.3s;
+
+}
+@media(max-width:667px){
+	.contaner{
+			width:100%;
+			margin: 10px 0;
+	}
+}
+.contaner > div{
+	min-height: 300px;
+    width: 100%;
+    padding: 10px;
+}
+.contaner div:nth-child(1){
+	background-color: #eee;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.contaner .counter h2{
+
+}
+.contaner .counter p{
+font-size: 50px;
+}
+
+.contaner .counter .butn button{
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: #ddd;
+    margin: 3px;
+    border-radius: 10px
+}
+
+
+.contaner div:nth-child(2){
+	background:#ccc;
+}
+.table{
+    overflow-x: auto;	
+}
+.table table{
+    border-collapse: collapse;
+}
+.table  option{
+  margin: 10px;
+}
+.table table tr{
+		transition:0.3s;
+}
+.table table tr:nth-child(odd){
+	background-color:#ddd;
+}
+.table table tr:nth-child(even){
+	background-color:#aaa;
+}
+.table table tr:hover{
+	background-color:#f9f9f9;
+	color:#000;
+}
+
+.table table tr td{
+    border: 1px solid #000;
+    padding: 10px;
+}

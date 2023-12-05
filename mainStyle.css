@@ -1,0 +1,66 @@
+*{
+	padding:0;
+	margin:0;
+    box-sizing: border-box;
+}
+
+ header{
+    background: #00000080;
+    color: #fff;
+    text-align: right;
+    line-height: 80px;
+    font-size: 25px;
+	
+}
+ header h1{
+	 margin-right:50px;
+ }
+
+
+
+/*  Start footer */
+ footer{
+    background: #0096888f;
+
+}
+
+ footer .media > .communicate{
+    padding: 20px;
+	text-align: center;
+}
+ footer .media > .communicate > a{
+	display: inline-block;
+    text-align: center;
+    margin: 5px;
+    height: 50px;
+    width: 50px;	
+}
+ footer .media > .communicate > a i{
+ font-size: 50px;
+}
+ footer .media > .communicate .inst{
+     color: #f321dd;
+ 
+}
+ footer .media > .communicate  .snap{
+     color: #ffeb3b;
+ 
+}
+ footer .media > .communicate  .x-twi{
+    color: #2196f3;
+  
+}
+ footer .media > .communicate  .git{
+    color: #000;
+ 
+}
+ footer .media > .communicate  .yout{
+    color: #ff0000;
+    
+}
+ footer .footer{
+   border-top: 1px solid #eee;
+    padding: 20px 0;
+    text-align: center;
+
+}
